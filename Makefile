@@ -6,6 +6,7 @@ all:
 	ls -la ./target/wasm32-unknown-unknown/release/gear_feeds_channel*.wasm
 
 prepare:
+	@ bash -cl "source "$HOME/.cargo/env" 
 	@ bash -cl "rustup toolchain add nightly"
 	@ bash -cl "rustup target add wasm32-unknown-unknown --toolchain nightly"
 	@ cargo install --git https://github.com/gear-tech/gear wasm-proc
