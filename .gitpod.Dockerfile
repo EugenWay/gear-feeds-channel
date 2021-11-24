@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full
 
-ENV PATH="/workspace/.cargo/bin:${PATH}
+ENV PATH="/workspace/.cargo/bin:${PATH}"
