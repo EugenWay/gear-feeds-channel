@@ -3,5 +3,5 @@ image:
 
 tasks:
   - init: |
-      source /workspace/.cargo/env
+      source /home/gitpod/.cargo/env
       make prepare
