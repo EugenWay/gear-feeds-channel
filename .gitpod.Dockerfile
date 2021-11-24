@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full
 
-ENV PATH=/workspace/.cargo/bin:$PATH
+RUN echo 'source $HOME/.cargo/env' >> $HOME/.bashrc
