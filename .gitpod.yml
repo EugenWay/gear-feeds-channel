@@ -2,4 +2,5 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
+  - before: source "$HOME/.cargo/env
   - init: make prepare
