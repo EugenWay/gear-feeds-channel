@@ -1,2 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
+  - before: export CARGO_HOME="/home/gitpod/.cargo"
   - init: make prepare
